@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mantine/core": "^5.5.5",
+    "@mantine/ds": "^5.5.5",
+    "@mantine/hooks": "^5.5.5",
     "microcms-js-sdk": "^2.2.1",
     "next": "12.3.1",
     "react": "18.2.0",
@@ -16,6 +19,8 @@
     "sass": "^1.55.0"
   },
   "devDependencies": {
+    "@types/node": "18.8.4",
+    "@types/react": "18.0.21",
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1"
   }

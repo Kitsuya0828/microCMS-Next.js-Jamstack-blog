@@ -1,9 +1,16 @@
 import Link from "next/link";
 import { client } from "../libs/client";
+import { HeaderSimple } from "./Header";
 
 export default function Home({ blog }) {
   return (
     <div>
+      <HeaderSimple links={[
+        {link: ".", label: "Features"},
+        {link: ".", label: "Pricing"},
+        {link: ".", label: "Learn"},
+        {link: ".", label: "Community"}
+      ]} />
       <ul>
         {blog.map((blog) => (
           <li key={blog.id}>
