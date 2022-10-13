@@ -31,7 +31,7 @@ const useStyles = createStyles((theme) => ({
     },
   
     title: {
-      color: theme.colorScheme === 'dark' ? theme.white : theme.black,
+      color: theme.colorScheme === 'dark' ? theme.black : theme.white,
       fontFamily: `Greycliff CF, ${theme.fontFamily}`,
       fontSize: 44,
       lineHeight: 1.2,
